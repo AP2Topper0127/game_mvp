@@ -1,0 +1,19 @@
+{
+  "name": "Guess Famous People",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Guess",
+    "Famous",
+    "People"
+  ],
+  "author": "Dimitri Mikadze",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
