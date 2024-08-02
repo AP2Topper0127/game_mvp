@@ -7,7 +7,6 @@ This project shows how the code can be architectured to run on IOS and Android w
 
 <img src="https://github.com/DimiMikadze/react-native-game/blob/master/server/images/screenshots/Start.jpg" width="200">
 <img src="https://github.com/DimiMikadze/react-native-game/blob/master/server/images/screenshots/Choose.jpg" width="200">
-<img src="https://github.com/DimiMikadze/react-native-game/blob/master/server/images/screenshots/Game.jpg" width="200">
 <img src="https://github.com/DimiMikadze/react-native-game/blob/master/server/images/screenshots/Finish.jpg" width="200">
 
 ## Getting Started
@@ -15,27 +14,27 @@ This project shows how the code can be architectured to run on IOS and Android w
 Clone Repo
 
 ````
-git clone https://github.com/DimiMikadze/react-native-game.git
+git clone https://github.com/ap2topper0127/game_mvp.git
 ````
 
 Install dependencies for server
 
 ````
-cd react-native-game/server
+cd game_mvpserver
 npm install
 ````
 
 Install dependecies for react native
 
 ````
-cd react-native-game/mobile
+cd game_mvp/mobile
 npm install
 ````
 
 ## Node Rest Api
 
 ````
-cd react-native-game/server
+cd game_mvp/server
 node server.js
 ````
 
@@ -54,7 +53,7 @@ Open react-native-game.xcodeproj in XCode
 ## Android
 
 ````
-navigate to react-native-game/mobile
+navigate to game_mvp/mobile
 react-native run-android
 
 When debugging on android use 10.0.3.2 instead of localhost in utils/api.js
